@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen Haven Nursery</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__hamburger">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li class="nav__list-item"><a href="#">Shop</a></li>
+                            <li class="nav__list-item"><a href="#">Home</a></li>
+                            <li class="nav__list-item"><a href="#">Plant</a></li>
+                            <li class="nav__list-item"><a href="#">About</a></li>
+                            <li class="nav__list-item"><a href="#">Contact</a></li>
+                            <li class="nav__list-item"><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__right">
+                        <div class="header__icons">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="17" fill="white" />
+                            <path d="M25.5201 20.21L23.7201 18.4V13.94C23.744 12.2838 23.1679 10.6749 22.0982 9.41034C21.0285 8.14576 19.5373 7.31094 17.9001 7.06C16.9499 6.93487 15.9839 7.01381 15.0667 7.29158C14.1494 7.56934 13.3019 8.03952 12.5808 8.67076C11.8597 9.302 11.2814 10.0798 10.8847 10.9522C10.4879 11.8246 10.2818 12.7716 10.2801 13.73V18.4L8.48007 20.21C8.25398 20.4399 8.10066 20.7313 8.03927 21.0478C7.97789 21.3643 8.01117 21.6919 8.13495 21.9896C8.25873 22.2874 8.46752 22.542 8.73522 22.7217C9.00292 22.9014 9.31766 22.9982 9.64007 23H13.0001V23.34C13.0468 24.3552 13.494 25.3105 14.2438 25.9965C14.9936 26.6826 15.9847 27.0434 17.0001 27C18.0154 27.0434 19.0066 26.6826 19.7563 25.9965C20.5061 25.3105 20.9534 24.3552 21.0001 23.34V23H24.3601C24.6825 22.9982 24.9972 22.9014 25.2649 22.7217C25.5326 22.542 25.7414 22.2874 25.8652 21.9896C25.989 21.6919 26.0223 21.3643 25.9609 21.0478C25.8995 20.7313 25.7462 20.4399 25.5201 20.21ZM19.0001 23.34C18.9446 23.821 18.7057 24.2621 18.3331 24.5713C17.9606 24.8805 17.4831 25.0341 17.0001 25C16.5171 25.0341 16.0396 24.8805 15.667 24.5713C15.2944 24.2621 15.0555 23.821 15.0001 23.34V23H19.0001V23.34ZM10.5101 21L11.6901 19.82C11.8772 19.6339 12.0257 19.4127 12.127 19.169C12.2283 18.9253 12.2803 18.6639 12.2801 18.4V13.73C12.2806 13.0554 12.4255 12.3887 12.7049 11.7747C12.9843 11.1607 13.3918 10.6136 13.9001 10.17C14.4015 9.71568 14.9956 9.37575 15.6414 9.17373C16.2872 8.97171 16.9691 8.91244 17.6401 9C18.7966 9.18778 19.8463 9.78701 20.596 10.6874C21.3457 11.5877 21.7449 12.7286 21.7201 13.9V18.4C21.7186 18.6632 21.769 18.9241 21.8685 19.1678C21.9681 19.4115 22.1147 19.6331 22.3001 19.82L23.4901 21H10.5101Z" fill="black" />
+                        </svg>
+                        <svg class="header__profile" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="17" fill="white" />
+                            <path d="M17 16C17.7911 16 18.5645 15.7654 19.2223 15.3259C19.8801 14.8864 20.3928 14.2616 20.6955 13.5307C20.9983 12.7998 21.0775 11.9956 20.9231 11.2196C20.7688 10.4437 20.3878 9.73098 19.8284 9.17157C19.269 8.61216 18.5563 8.2312 17.7804 8.07686C17.0044 7.92252 16.2002 8.00173 15.4693 8.30448C14.7384 8.60723 14.1136 9.11992 13.6741 9.77772C13.2346 10.4355 13 11.2089 13 12C13 13.0609 13.4214 14.0783 14.1716 14.8284C14.9217 15.5786 15.9391 16 17 16ZM17 10C17.3956 10 17.7822 10.1173 18.1111 10.3371C18.44 10.5568 18.6964 10.8692 18.8478 11.2346C18.9991 11.6001 19.0387 12.0022 18.9616 12.3902C18.8844 12.7781 18.6939 13.1345 18.4142 13.4142C18.1345 13.6939 17.7781 13.8844 17.3902 13.9616C17.0022 14.0387 16.6001 13.9991 16.2346 13.8478C15.8692 13.6964 15.5568 13.44 15.3371 13.1111C15.1173 12.7822 15 12.3956 15 12C15 11.4696 15.2107 10.9609 15.5858 10.5858C15.9609 10.2107 16.4696 10 17 10Z" fill="black" />
+                            <path d="M17 18C15.1435 18 13.363 18.7375 12.0503 20.0503C10.7375 21.363 10 23.1435 10 25C10 25.2652 10.1054 25.5196 10.2929 25.7071C10.4804 25.8946 10.7348 26 11 26C11.2652 26 11.5196 25.8946 11.7071 25.7071C11.8946 25.5196 12 25.2652 12 25C12 23.6739 12.5268 22.4021 13.4645 21.4645C14.4021 20.5268 15.6739 20 17 20C18.3261 20 19.5979 20.5268 20.5355 21.4645C21.4732 22.4021 22 23.6739 22 25C22 25.2652 22.1054 25.5196 22.2929 25.7071C22.4804 25.8946 22.7348 26 23 26C23.2652 26 23.5196 25.8946 23.7071 25.7071C23.8946 25.5196 24 25.2652 24 25C24 23.1435 23.2625 21.363 21.9497 20.0503C20.637 18.7375 18.8565 18 17 18Z" fill="black" />
+                          </svg>
+                        </div>
+                        <div class="menu-btn">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="home__background">
+                <div class="home__wrapper">
+                    <h1>Discover Source of Green Spaces, Where Nature Thrives</h1>
+                    <p>Immerse yourself in a world of lush greenery and vibrant life as you <br> explore our diverse selection of plants and trees.</p>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="category">
+        <div class="container">
+            <h2>Category</h2>
+            <div class="category__wrapper">
+                <div class="category__item">
+                    <img src="img/1.png" alt="House Plants">
+                    <p>House Plants</p>
+                </div>
+                <div class="category__item">
+                    <img src="img/2.png" alt="Vegetable Plant">
+                    <p>Vegetable Plant</p>
+                </div>
+                <div class="category__item">
+                    <img src="img/3.png" alt="Herbs Plants">
+                    <p>Herbs Plants</p>
+                </div>
+                <div class="category__item">
+                    <img src="img/4.png" alt="Fruits Plants">
+                    <p>Fruits Plants</p>
+                </div>
+                <div class="category__item">
+                    <img src="img/5.png" alt="Climbing Plants">
+                    <p>Climbing Plants</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <h3>Featured Product</h3>
+                <div class="featured__item">
+                    <div class="featured__image-container">
+                        <img src="img/featured1.png" alt="">
+                    </div>
+                    <div class="featured__image-container">
+                        <img src="img/featured2.png" alt="">
+                    </div>
+                    <div class="featured__image-container">
+                        <img src="img/featured3.png" alt="">
+                    </div>
+                    <div class="featured__image-container">
+                        <img src="img/featured4.png" alt="">
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+           <div class="product__title">
+                <h3>All Product</h3>
+                <button>See all</button>
+           </div> 
+            <div id="productWrapper" class="product__wrapper">
+                <!-- products.json -->
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <img src="img/about.png" alt="">
+                <div class="about__wrapper-title">
+                    <h4>Why People Choose Us</h4>
+                    <p>We pride ourselves on delivering products and services of the highest quality. From the materials we source to the craftsmanship behind our work, excellence is our standard.</p>
+                    <p>Our dedication to customer service sets us apart. We go above and beyond to ensure every customer's needs are not only met but exceeded. From personalized recommendations to prompt assistance, we're here for you every step of the way.</p>
+                    <p>When you choose us, you're choosing reliability and trustworthiness. Our track record speaks for itself, and our customers know they can count on us to deliver on our promises, every time.</p>
+                    <p>We prioritize sustainability in everything we do. From eco-friendly materials to sustainable practices, we're committed to minimizing our environmental impact and contributing to a greener future.</p>
+                    <p>In a rapidly changing world, we stay ahead of the curve with innovation and adaptability. We continuously evolve our products and services to meet the evolving needs of our customers, ensuring they always have access to the latest and greatest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h4>Newsletter</h4>
+        <form action="#">
+            <div class="footer__input-group">
+               <input name="email" id="email" type="email" placeholder="Your Email" required>
+               <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="footer__info">
+            <div class="footer__info-item">
+                <p>Company</p>
+                <a href="">About</a>
+                <a href="">Career</a>
+            </div>
+            <div class="footer__info-item">
+                <p>Support</p>
+                <a href="">Help Center</a>
+                <a href="">Privacy Policy</a>
+            </div>
+            <div class="footer__info-item">
+                <p>Contact</p>
+                <address><b>Address:</b> Mohammadpur, Dhaka</address>
+                <a href="mailto:info@woodfurniture.com" class="mailto"><b>Email:</b> info@woodfurniture.com</a>
+            </div>
+            <div class="footer__info-item">
+                <p>Useful Links</p>
+                <a href="">Terms & Condition</a>
+                <a href="">FAQ</a>
+            </div>
+        </div>
+        <div class="footer__social">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="white" />
+                <path d="M18.5 27.5H14.5C14.2348 27.5 13.9804 27.3946 13.7929 27.2071C13.6054 27.0195 13.5 26.7652 13.5 26.5V20.3H11.5C11.2348 20.3 10.9804 20.1946 10.7929 20.0071C10.6054 19.8195 10.5 19.5652 10.5 19.3V15.7C10.5 15.4347 10.6054 15.1804 10.7929 14.9928C10.9804 14.8053 11.2348 14.7 11.5 14.7H13.5V13C13.5701 11.4763 14.2406 10.0424 15.365 9.01174C16.4893 7.98109 17.976 7.43754 19.5 7.49995H22.5C22.7652 7.49995 23.0196 7.60531 23.2071 7.79285C23.3946 7.98038 23.5 8.23474 23.5 8.49995V12.1C23.5 12.3652 23.3946 12.6195 23.2071 12.8071C23.0196 12.9946 22.7652 13.1 22.5 13.1H19.5V14.7H22.5C22.6544 14.6988 22.807 14.7334 22.9458 14.801C23.0846 14.8687 23.2058 14.9676 23.3 15.09C23.3931 15.2142 23.4561 15.3583 23.4839 15.5111C23.5116 15.6638 23.5035 15.8209 23.46 15.97L22.46 19.57C22.3995 19.7863 22.268 19.9759 22.0866 20.1083C21.9052 20.2408 21.6844 20.3083 21.46 20.3H19.5V26.5C19.5 26.7652 19.3946 27.0195 19.2071 27.2071C19.0196 27.3946 18.7652 27.5 18.5 27.5ZM15.5 25.5H17.5V19.3C17.5 19.0347 17.6054 18.7804 17.7929 18.5928C17.9804 18.4053 18.2348 18.3 18.5 18.3H20.74L21.18 16.7H18.5C18.2348 16.7 17.9804 16.5946 17.7929 16.4071C17.6054 16.2195 17.5 15.9652 17.5 15.7V13C17.5257 12.487 17.7477 12.0037 18.12 11.65C18.4923 11.2962 18.9864 11.0993 19.5 11.1H21.5V9.49995H19.5C18.5068 9.43944 17.5298 9.77299 16.781 10.4282C16.0321 11.0835 15.5719 12.0075 15.5 13V15.7C15.5 15.9652 15.3946 16.2195 15.2071 16.4071C15.0196 16.5946 14.7652 16.7 14.5 16.7H12.5V18.3H14.5C14.7652 18.3 15.0196 18.4053 15.2071 18.5928C15.3946 18.7804 15.5 19.0347 15.5 19.3V25.5Z" fill="black" />
+            </svg>
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="white" />
+                <path d="M25.5 27.5H23.83C23.2996 27.5 22.7909 27.2893 22.4158 26.9143C22.0407 26.5392 21.83 26.0305 21.83 25.5V20.13C21.8389 19.9194 21.7753 19.7121 21.6497 19.5429C21.5241 19.3736 21.3442 19.2525 21.14 19.2C21.0212 19.182 20.9 19.1896 20.7844 19.2223C20.6688 19.2551 20.5616 19.3123 20.47 19.39C20.3757 19.47 20.3 19.5697 20.2482 19.6819C20.1964 19.7942 20.1697 19.9164 20.17 20.04V25.5C20.17 26.0305 19.9593 26.5392 19.5842 26.9143C19.2091 27.2893 18.7004 27.5 18.17 27.5H16.5C15.9696 27.5 15.4609 27.2893 15.0858 26.9143C14.7107 26.5392 14.5 26.0305 14.5 25.5V20.04C14.5 18.3161 15.1848 16.6628 16.4038 15.4438C17.6228 14.2249 19.2761 13.54 21 13.54C22.7239 13.54 24.3772 14.2249 25.5962 15.4438C26.8152 16.6628 27.5 18.3161 27.5 20.04V25.5C27.5 26.0305 27.2893 26.5392 26.9142 26.9143C26.5391 27.2893 26.0304 27.5 25.5 27.5ZM21 17.19C21.1565 17.1802 21.3135 17.1802 21.47 17.19C22.1414 17.3192 22.7458 17.6806 23.1774 18.2109C23.6089 18.7411 23.84 19.4064 23.83 20.09V25.5H25.5V20.04C25.5 18.8466 25.0259 17.702 24.182 16.8581C23.3381 16.0141 22.1935 15.54 21 15.54C19.8065 15.54 18.6619 16.0141 17.818 16.8581C16.9741 17.702 16.5 18.8466 16.5 20.04V25.5H18.17V20.04C18.17 19.2876 18.4675 18.5657 18.9977 18.0318C19.5278 17.4979 20.2476 17.1953 21 17.19Z" fill="black" />
+                <path d="M11.5 27.5H9.5C8.96957 27.5 8.46086 27.2893 8.08579 26.9142C7.71071 26.5391 7.5 26.0304 7.5 25.5V15.5C7.5 14.9696 7.71071 14.4609 8.08579 14.0858C8.46086 13.7107 8.96957 13.5 9.5 13.5H11.5C12.0304 13.5 12.5391 13.7107 12.9142 14.0858C13.2893 14.4609 13.5 14.9696 13.5 15.5V25.5C13.5 26.0304 13.2893 26.5391 12.9142 26.9142C12.5391 27.2893 12.0304 27.5 11.5 27.5ZM9.5 15.5V25.5H11.5V15.5H9.5Z" fill="black" />
+                <path d="M10.5 12.5C9.90666 12.5 9.32664 12.3241 8.83329 11.9944C8.33994 11.6648 7.95543 11.1962 7.72836 10.6481C7.5013 10.0999 7.44189 9.49667 7.55765 8.91473C7.6734 8.33279 7.95912 7.79824 8.37868 7.37868C8.79824 6.95912 9.33279 6.6734 9.91473 6.55765C10.4967 6.44189 11.0999 6.5013 11.6481 6.72836C12.1962 6.95543 12.6648 7.33994 12.9944 7.83329C13.3241 8.32664 13.5 8.90666 13.5 9.5C13.5 10.2957 13.1839 11.0587 12.6213 11.6213C12.0587 12.1839 11.2957 12.5 10.5 12.5ZM10.5 8.5C10.3022 8.5 10.1089 8.55865 9.94443 8.66853C9.77998 8.77841 9.65181 8.93459 9.57612 9.11732C9.50043 9.30004 9.48063 9.50111 9.51922 9.69509C9.5578 9.88907 9.65304 10.0673 9.79289 10.2071C9.93275 10.347 10.1109 10.4422 10.3049 10.4808C10.4989 10.5194 10.7 10.4996 10.8827 10.4239C11.0654 10.3482 11.2216 10.22 11.3315 10.0556C11.4414 9.89112 11.5 9.69778 11.5 9.5C11.5 9.23478 11.3946 8.98043 11.2071 8.79289C11.0196 8.60536 10.7652 8.5 10.5 8.5Z" fill="black" />
+            </svg>
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="white" />
+                <path d="M17.5 21.5C18.5609 21.5 19.5783 21.0786 20.3284 20.3284C21.0786 19.5783 21.5 18.5609 21.5 17.5C21.5 16.4391 21.0786 15.4217 20.3284 14.6716C19.5783 13.9214 18.5609 13.5 17.5 13.5C16.4391 13.5 15.4217 13.9214 14.6716 14.6716C13.9214 15.4217 13.5 16.4391 13.5 17.5C13.5 18.5609 13.9214 19.5783 14.6716 20.3284C15.4217 21.0786 16.4391 21.5 17.5 21.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M8.5 21.5V13.5C8.5 12.1739 9.02678 10.9021 9.96447 9.96447C10.9021 9.02678 12.1739 8.5 13.5 8.5H21.5C22.8261 8.5 24.0979 9.02678 25.0355 9.96447C25.9732 10.9021 26.5 12.1739 26.5 13.5V21.5C26.5 22.8261 25.9732 24.0979 25.0355 25.0355C24.0979 25.9732 22.8261 26.5 21.5 26.5H13.5C12.1739 26.5 10.9021 25.9732 9.96447 25.0355C9.02678 24.0979 8.5 22.8261 8.5 21.5Z" stroke="black" stroke-width="1.5" />
+                <path d="M23 12.01L23.01 11.999" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="white" />
+                <path d="M16.17 20.6958C15.664 23.4218 15.048 26.0358 13.22 27.4008C12.657 23.2808 14.049 20.1858 14.695 16.9008C13.593 14.9908 14.828 11.1458 17.152 12.0928C20.012 13.2588 14.675 19.1948 18.258 19.9368C21.999 20.7108 23.527 13.2538 21.207 10.8278C17.855 7.32682 11.45 10.7488 12.238 15.7618C12.43 16.9878 13.659 17.3598 12.729 19.0518C10.584 18.5608 9.94402 16.8188 10.027 14.4958C10.159 10.6958 13.344 8.03382 16.538 7.66582C20.578 7.19982 24.369 9.19282 24.892 13.1058C25.482 17.5218 23.069 22.3058 18.75 21.9608C17.579 21.8678 17.087 21.2708 16.17 20.6958Z" fill="black" />
+            </svg>
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="35" height="35" rx="17.5" fill="white" />
+                <path d="M19.5 17.5L16 19.5V15.5L19.5 17.5Z" fill="black" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7.5 18.2079V16.7919C7.5 13.8969 7.5 12.4489 8.405 11.5179C9.311 10.5859 10.737 10.5459 13.588 10.4649C14.938 10.4269 16.318 10.3999 17.5 10.3999C18.682 10.3999 20.061 10.4269 21.412 10.4649C24.263 10.5459 25.689 10.5859 26.594 11.5179C27.499 12.4499 27.5 13.8979 27.5 16.7919V18.2069C27.5 21.1029 27.5 22.5499 26.595 23.4819C25.689 24.4129 24.264 24.4539 21.412 24.5339C20.062 24.5729 18.682 24.5999 17.5 24.5999C16.318 24.5999 14.939 24.5729 13.588 24.5339C10.737 24.4539 9.311 24.4139 8.405 23.4819C7.499 22.5499 7.5 21.1019 7.5 18.2079Z" stroke="black" stroke-width="1.5" />
+              </svg>
+        </div>
+        <div class="hr"></div>  
+        <div class="footer__wrapper">
+            <div class="footer__wrapper-by">
+                <img src="img/footer-logo.png" alt="#">
+                <p>All Right Reserved by <a href="#">Nikolay Beshen</a></p>
+            </div>
+            <div class="footer__pay">
+                <a href=""><img src="img/paypal.png" alt=""></a>
+                <a href=""><img src="img/pay2.png" alt=""></a>
+                <a href=""><img src="img/bkash.png" alt=""></a>
+            </div>  
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

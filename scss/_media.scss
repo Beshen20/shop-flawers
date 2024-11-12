@@ -1,0 +1,130 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 320.98px) { 
+    
+ }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    
+ }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+    .menu-btn {
+        display: flex !important;
+        width: 30px;
+        height: 30px !important;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
+    }
+    
+    .menu-btn .bar {
+        width: 30px;
+        height: 4px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 4px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255) !important;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu-btn .bar:nth-of-type(2) {
+        top: calc(50% - 9px);
+    }
+    .menu-btn .bar:nth-of-type(3) {
+        top: calc(50% + 9px);
+    }
+    
+    /* Меняем гамбургер иконку, когда меню открыто */
+    .menu-btn.active .bar:nth-of-type(1) {
+      display: none;
+    }
+    .menu-btn.active .bar:nth-of-type(2) {
+      top: 50%;
+      transform: translate(-50%, 0%) rotate(45deg);  
+    }
+    .menu-btn.active .bar:nth-of-type(3) {
+      top: 50%;
+      transform: translate(-50%, 0%) rotate(-45deg); 
+    }
+    
+    /* Меню, которое будет появляться */
+    .nav {
+        display: none;
+        position: fixed;
+        top: -15%;
+        transform: translateY(30%);
+        transition: transform 0.5s; 
+        padding-bottom: 10px;
+    }
+    
+    .nav.active {
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 100%;
+        background:#bad5ea;
+    }
+    
+    .header__hamburger .header__inner nav ul{
+        display: flex;
+        gap: 25px !important;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .header__logo{
+        z-index: 1;
+    }
+ }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    .container {
+        margin: 0 0;
+    }
+    .header__inner{
+        padding: 0 10px;
+    }
+    .home__wrapper{
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 14px;
+        }
+        button{
+            width: 180px;
+            height: 40px;
+            font-size: 18px;
+        }
+    }
+ }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1099.98px) { 
+
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
